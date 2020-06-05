@@ -30,6 +30,6 @@ jobs:
     - name: installing Surge
       run: npm install -g surge
     - name: deploying on surge
-      run: surge ./build http://bootcamp_assignment02.surge.sh/ --token ${{secrets.Surge_Token}}   
+      run: surge ./ build http://bootcamp_assignment02.surge.sh/ --token ${{secrets.Surge_Token}}   
 
     
